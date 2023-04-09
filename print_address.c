@@ -2,6 +2,19 @@
 
 int main()
 {
-printf("Address:-\nName - Vikash kumar\nFather name is - Shree jay prakash sharma\nMother name is - Shree mati anita devi\nVillage - Bhakhrauli\nPost - Berma\nVia-Tamuriya\nThana - Lakhnaur\nDistric - Madhubani\nPin code-847410\n    (Bihar)");
+     int arr[4][5][6];
+     for (int i = 0; i <4; i++)
+     {
+         for (int j = 0; j <5; j++)
+         {
+            for (int k = 0; k <6; k++)
+            {
+             printf("[%d][%d][%d],%u\n",i,j,k,&arr[i][j][k]);
+            }
+            
+         }
+         
+     }
+     
 return 0;
 }
