@@ -1,14 +1,14 @@
 #include<stdio.h>
-int div();
+int mult();
 int main()
 {
-     printf("Division of two number = %d",div());
+     printf("Multiplication of two number = %d",mult());
 return 0;
 }
-int div(){
+int mult(){
     int a,b;
     printf("Enter the a number\nEnter the b number\n");
     scanf("%d%d",&a,&b);
-    return a/b;
+    return a*b;
      
 }

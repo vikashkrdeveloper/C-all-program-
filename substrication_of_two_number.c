@@ -1,14 +1,14 @@
 #include<stdio.h>
-int div();
+int sub();
 int main()
 {
-     printf("Division of two number = %d",div());
+     printf("Substrication of two number = %d",sub());
 return 0;
 }
-int div(){
+int sub(){
     int a,b;
     printf("Enter the a number\nEnter the b number\n");
     scanf("%d%d",&a,&b);
-    return a/b;
+    return a-b;
      
 }
